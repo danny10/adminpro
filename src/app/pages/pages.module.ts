@@ -17,6 +17,8 @@ import { PAGES_ROUTES } from './pages.routes';
 import { ChartsModule } from 'ng2-charts';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs.component';
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import { BrowserModule } from '@angular/platform-browser';
         Graficas1Component,
         IncrementadorComponent,
         GraficoDonaComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
 
     exports:[
